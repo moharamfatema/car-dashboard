@@ -52,7 +52,7 @@
     "tailwindcss": "^3.2.4"
   },
   "lint-staged": {
-    "*.{jsx,ts,tsx}": [
+    "*.{js,jsx,ts,tsx}": [
       "eslint ./src/* --fix",
       "prettier ./src/* --write"
     ]
