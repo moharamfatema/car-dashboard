@@ -5,7 +5,7 @@ import TopBar from '../modules/topBar'
 
 const Layout: FC = () => {
 	return (
-		<div className='flex flex-row h-[100vh]'>
+		<div className='flex flex-row h-[100vh] gap-x-px'>
 			<SideBar />
 			<div className='flex flex-col grow'>
 				<TopBar />

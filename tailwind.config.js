@@ -24,6 +24,9 @@ module.exports = {
 			// Additional
 			grayDark: '#1F2128',
 			hover: '#F3F5F8',
+			white: '#FFFFFF',
+			// background
+			background: '#F5F5F5',
 		},
 		fontFamily: {
 			sans: ['DM Sans', 'sans-serif'],
