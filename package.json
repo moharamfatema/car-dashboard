@@ -49,6 +49,8 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",
     "prettier": "2.8.1",
+    "react-router": "^6.6.1",
+    "react-router-dom": "^6.6.1",
     "tailwindcss": "^3.2.4"
   },
   "lint-staged": {
