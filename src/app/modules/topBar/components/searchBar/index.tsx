@@ -10,7 +10,7 @@ const SearchBar = () => {
 				type='text'
 				placeholder='Search or type'
 				name='search'
-				className='caret-secondaryOrange bg-[#F5F4F6] placeholder:text-gray300 rounded-lg text-base font-medium leading-5'
+				className='caret-secondaryOrange bg-[#F5F4F6] placeholder:text-gray300 rounded-lg text-base font-medium leading-5 focus-visible:outline-none'
 				autoFocus
 			/>
 		</div>
