@@ -1,8 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: [
-		'./src/**/*.{js,jsx,ts,tsx}',
-	],
+	content: ['./src/**/*.{js,jsx,ts,tsx}'],
 	theme: {
 		colors: {
 			// Primary
@@ -23,6 +21,9 @@ module.exports = {
 			gray400: '#72767C',
 			gray500: '#5F6165',
 			gray600: '#242731',
+			// Additional
+			grayDark: '#1F2128',
+			hover: '#F3F5F8',
 		},
 		fontFamily: {
 			sans: ['DM Sans', 'sans-serif'],

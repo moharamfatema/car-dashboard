@@ -5,11 +5,11 @@ import TopBar from '../modules/topBar'
 
 const Layout: FC = () => {
 	return (
-		<div>
-			<TopBar />
-			<div className="flex">
-				<SideBar />
-				<div className="grow">
+		<div className='flex flex-row h-[100vh]'>
+			<SideBar />
+			<div className='flex flex-col grow'>
+				<TopBar />
+				<div className='grow'>
 					<Outlet />
 				</div>
 			</div>
