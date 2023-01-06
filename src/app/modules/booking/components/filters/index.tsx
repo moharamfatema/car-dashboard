@@ -1,10 +1,12 @@
 import React, { FC } from 'react'
+import FiltersLeft from './FiltersLeft'
+import FiltersRight from './FiltersRight'
 
 const Filters: FC = () => {
 	return (
 		<div className='filters flex justify-between'>
-			<div className='f-left'>left</div>
-			<div className='f-right'>right</div>
+			<FiltersLeft filters={['New', 'Toyota']} />
+			<FiltersRight />
 		</div>
 	)
 }

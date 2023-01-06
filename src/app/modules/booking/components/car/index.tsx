@@ -10,7 +10,7 @@ interface IcarProps {
 const Car: FC<IcarProps> = ({ car }) => {
 	return (
 		<div
-			className='car bg-white w-[325px] h=[267px] rounded-2xl flex flex-col gap-[10px] p-6 text-left text-[#72767C]'
+			className='car bg-white min-w-[325px] min-h-[267px] rounded-2xl flex flex-col gap-[10px] p-6 text-left text-[#72767C]'
 			key={car.id}
 		>
 			<CarHeader car={car} />

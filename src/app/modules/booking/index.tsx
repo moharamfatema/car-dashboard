@@ -4,7 +4,7 @@ import Filters from './components/filters'
 
 const Booking: FC = () => {
 	return (
-		<div className='booking'>
+		<div className='booking flex flex-col gap-10'>
 			<h1 className=' text-left'>Booking</h1>
 			<Filters />
 			<Cars />
