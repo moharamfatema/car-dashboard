@@ -5,7 +5,7 @@ import ua from '../../../assets/avatars/ua.png'
 
 const TopBar: FC = () => {
 	return (
-		<div className='top-bar bg-white flex w-full py-4 px-8 items-center content-center justify-between focus:border-secondaryOrange'>
+		<div className='top-bar bg-white flex w-full py-4 px-8 items-center content-center justify-between focus:border-secondaryOrange sticky top-0'>
 			<SearchBar />
 			<div className='flex sb-right flex-row items-center gap-10'>
 				<div className='notification hover:bg-hover rounded-full p-3'>

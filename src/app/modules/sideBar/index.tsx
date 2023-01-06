@@ -5,7 +5,7 @@ import Bottom from './components/bottom'
 
 const SideBar: FC = () => {
 	return (
-		<section className='sidebar flex flex-col py-[30px] px-6 h-[100vh] gap-[35px] bg-white'>
+		<section className='sidebar flex flex-col py-[30px] px-6 h-[100vh] gap-[35px] bg-white float-right top-0 left-0 fixed'>
 			<header>
 				<Logo />
 			</header>
