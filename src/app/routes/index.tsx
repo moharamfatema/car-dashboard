@@ -6,12 +6,12 @@ import Dashboard from '../modules/dashboard'
 
 const AppRoutes: FC = () => {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename='/car-dashboard'>
 			<Routes>
 				<Route element={<Layout />}>
-					<Route path="/" element={<Dashboard />} />
-					<Route path="/booking" element={<Booking />} />
-					<Route path="*" element={<div>404</div>} />
+					<Route path='/' element={<Dashboard />} />
+					<Route path='/booking' element={<Booking />} />
+					<Route path='*' element={<div>404</div>} />
 				</Route>
 			</Routes>
 		</BrowserRouter>
