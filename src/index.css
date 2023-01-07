@@ -38,10 +38,10 @@ code {
 	@apply fill-gray300;
 }
 
-.purple path{
+.purple path {
 	@apply fill-primaryPurple;
 }
 
-.white path{
+.white path {
 	@apply fill-white;
 }
