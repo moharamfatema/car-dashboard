@@ -1,4 +1,5 @@
 import React, { FC } from 'react'
+import Recommendations from './components/Recommendations'
 
 const Dashboard: FC = () => {
 	return (
@@ -9,9 +10,7 @@ const Dashboard: FC = () => {
 			<div className='charts'>
 				<div>Charts</div>
 			</div>
-			<div className='recommendations'>
-				<div>Recommendations</div>
-			</div>
+			<Recommendations />
 		</div>
 	)
 }
