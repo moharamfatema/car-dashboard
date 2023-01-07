@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import { Icar } from '../cars/carsData'
+import { Icar } from '../../../../shared/types'
 import CarHeader from './header'
 import CarFooter from './footer'
 

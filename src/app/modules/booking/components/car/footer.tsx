@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import person from '../../../../../assets/icons/icon.svg'
 import type from '../../../../../assets/icons/icon-1.svg'
-import { Icar } from '../cars/carsData'
+import { Icar } from '../../../../shared/types'
 interface ICarFooterProps {
 	car: Icar
 }

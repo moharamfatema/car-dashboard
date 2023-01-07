@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import liked from '../../../../../assets/icons/love.svg'
 import notLiked from '../../../../../assets/icons/love-outline.svg'
-import { Icar } from '../cars/carsData'
+import { Icar } from '../../../../shared/types'
 
 interface ICarHeaderProps {
 	car: Icar
