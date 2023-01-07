@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/car-dashboard/static/css/main.d72d6132.css",
-    "main.js": "/car-dashboard/static/js/main.17b74d41.js",
+    "main.js": "/car-dashboard/static/js/main.8a6778d8.js",
     "static/js/787.394de848.chunk.js": "/car-dashboard/static/js/787.394de848.chunk.js",
     "static/media/Line.svg": "/car-dashboard/static/media/Line.f1aa5a838d72e79a92760a3a91586598.svg",
     "static/media/dashboard icon.svg": "/car-dashboard/static/media/dashboard icon.a3a2357179ff0af1216e1767ecef4364.svg",
@@ -19,11 +19,11 @@
     "static/media/logo.svg": "/car-dashboard/static/media/logo.66401e8c54adb11127864ee878f799fd.svg",
     "static/media/downward.svg": "/car-dashboard/static/media/downward.41e7ce3d4e4f7f45037044352619b674.svg",
     "main.d72d6132.css.map": "/car-dashboard/static/css/main.d72d6132.css.map",
-    "main.17b74d41.js.map": "/car-dashboard/static/js/main.17b74d41.js.map",
+    "main.8a6778d8.js.map": "/car-dashboard/static/js/main.8a6778d8.js.map",
     "787.394de848.chunk.js.map": "/car-dashboard/static/js/787.394de848.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d72d6132.css",
-    "static/js/main.17b74d41.js"
+    "static/js/main.8a6778d8.js"
   ]
 }
