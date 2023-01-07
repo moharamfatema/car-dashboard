@@ -1,11 +1,4 @@
-export interface IRecommendation {
-	percentage: number
-	title: string
-	price: number
-	shares: number
-	id: number
-	image: string
-}
+import { IRecommendation } from '../../../../shared/types'
 
 export const recommendations: IRecommendation[] = [
 	{

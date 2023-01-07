@@ -1,5 +1,6 @@
 import React, { FC } from 'react'
-import { Icar, carsData } from './carsData'
+import { carsData } from './carsData'
+import { Icar } from '../../../../shared/types'
 import Car from '../car'
 
 const Cars: FC = () => {

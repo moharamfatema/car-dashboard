@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import { IRecommendation } from '../Recommendations/recommendationData'
+import { IRecommendation } from '../../../../shared/types'
 
 import cycle from '../../../../../assets/icons/icon-5.svg'
 import shares from '../../../../../assets/icons/icon-6.svg'

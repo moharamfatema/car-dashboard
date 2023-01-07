@@ -15,7 +15,7 @@ Creating a React Typescript web app from a Figma design as part of a job applica
 
 - React :atom:
 - Typescript :blue_book:
-- Tailwind CSS :wave:
+- Tailwind CSS :art:
 
 ## Linting and Formatting :art:
 

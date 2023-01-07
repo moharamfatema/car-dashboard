@@ -1,13 +1,4 @@
-export interface Icar {
-	name: string
-	price: number
-	image: string
-	model: string
-	type: string
-	seats: number
-	isLiked: boolean
-	id: number
-}
+import { Icar } from '../../../../shared/types'
 
 export const carsData: Icar[] = [
 	{
