@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/car-dashboard/static/css/main.d72d6132.css",
+    "main.js": "/car-dashboard/static/js/main.17b74d41.js",
+    "static/js/787.394de848.chunk.js": "/car-dashboard/static/js/787.394de848.chunk.js",
+    "static/media/Line.svg": "/car-dashboard/static/media/Line.f1aa5a838d72e79a92760a3a91586598.svg",
+    "static/media/dashboard icon.svg": "/car-dashboard/static/media/dashboard icon.a3a2357179ff0af1216e1767ecef4364.svg",
+    "static/media/icon-8.svg": "/car-dashboard/static/media/icon-8.14335c9b0fc90bfb493689be165b33b2.svg",
+    "static/media/icon.svg": "/car-dashboard/static/media/icon.96d694337eb9fb21e453515313fc830e.svg",
+    "static/media/notification.svg": "/car-dashboard/static/media/notification.5679385bbd0428dfcdae16e944719e7d.svg",
+    "static/media/icon-5.svg": "/car-dashboard/static/media/icon-5.eea7c782dbd2f81e44231bc790bf8b84.svg",
+    "static/media/Component 9.svg": "/car-dashboard/static/media/Component 9.36e223517461d4df450f4ee48e04725c.svg",
+    "static/media/icon-7.svg": "/car-dashboard/static/media/icon-7.932e692d90458ebdfd68a385c1291b97.svg",
+    "index.html": "/car-dashboard/index.html",
+    "static/media/icon-1.svg": "/car-dashboard/static/media/icon-1.0ec73f69cbfd4ba83d0fa60992149718.svg",
+    "static/media/icon-6.svg": "/car-dashboard/static/media/icon-6.7d08d35509124af4e98e7a37e076f238.svg",
+    "static/media/love-outline.svg": "/car-dashboard/static/media/love-outline.d8138fe803fb459e5c83d1a2be776bde.svg",
+    "static/media/love.svg": "/car-dashboard/static/media/love.1e4ddad1c7d2722ebf30ad363268875b.svg",
+    "static/media/logo.svg": "/car-dashboard/static/media/logo.66401e8c54adb11127864ee878f799fd.svg",
+    "static/media/downward.svg": "/car-dashboard/static/media/downward.41e7ce3d4e4f7f45037044352619b674.svg",
+    "main.d72d6132.css.map": "/car-dashboard/static/css/main.d72d6132.css.map",
+    "main.17b74d41.js.map": "/car-dashboard/static/js/main.17b74d41.js.map",
+    "787.394de848.chunk.js.map": "/car-dashboard/static/js/787.394de848.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d72d6132.css",
+    "static/js/main.17b74d41.js"
+  ]
+}
