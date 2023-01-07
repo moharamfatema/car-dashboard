@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
-import liked from '../../../../../assets/icons/love.svg'
-import notLiked from '../../../../../assets/icons/love-outline.svg'
+import Liked from '../../../../../assets/icons-svgr/Love'
+import NotLiked from '../../../../../assets/icons-svgr/LoveOutline'
 import { Icar } from '../../../../shared/types'
 
 interface ICarHeaderProps {
@@ -12,11 +12,7 @@ const CarHeader: FC<ICarHeaderProps> = ({ car }) => {
 		<header className='flex justify-between'>
 			<p className='car__name title-1'>{car.name}</p>
 			<div className='isliked'>
-				<img
-					src={car.isLiked ? liked : notLiked}
-					alt='heart'
-					className=''
-				/>
+				{car.isLiked ? <Liked /> : <NotLiked />}
 			</div>
 		</header>
 	)

@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
-import grid from '../../../../../assets/icons/dashboard icon.svg'
-import FiltersIcon from '../../../../../assets/icons/icons/Settings 01/Line.svg'
+import Grid from '../../../../../assets/icons-svgr/DashboardIcon'
+import FiltersIcon from '../../../../../assets/icons-svgr/icons/Settings 01/Line'
 
 const FiltersRight: FC = () => {
 	return (
@@ -11,7 +11,7 @@ const FiltersRight: FC = () => {
 				name='grid'
 				className='bg-white rounded-full p-2.5 shadow-md'
 			>
-				<img src={grid} alt='grid' />
+				<Grid />
 			</button>
 			<button
 				title='Filters'
@@ -19,7 +19,7 @@ const FiltersRight: FC = () => {
 				name='filters'
 				className='bg-primaryPurple rounded-full p-2.5 shadow-md'
 			>
-				<img src={FiltersIcon} alt='filters' />
+				<FiltersIcon className='white' />
 			</button>
 		</div>
 	)

@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import SearchBar from './components/searchBar'
-import notification from '../../../assets/icons/notification.svg'
+import Notification from '../../../assets/icons-svgr/Notification'
 import ua from '../../../assets/avatars/ua.png'
 
 const TopBar: FC = () => {
@@ -9,11 +9,7 @@ const TopBar: FC = () => {
 			<SearchBar />
 			<div className='flex sb-right flex-row items-center gap-10'>
 				<div className='notification hover:bg-hover rounded-full p-3'>
-					<img
-						src={notification}
-						alt='notification'
-						className=' w-5 h-6'
-					/>
+					<Notification />
 				</div>
 				<div className='user '>
 					<img

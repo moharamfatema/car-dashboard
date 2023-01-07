@@ -1,10 +1,10 @@
 import React, { FC } from 'react'
 import { IRecommendation } from '../../../../shared/types'
 
-import cycle from '../../../../../assets/icons/icon-5.svg'
-import shares from '../../../../../assets/icons/icon-6.svg'
-import power from '../../../../../assets/icons/icon-7.svg'
-import gear from '../../../../../assets/icons/icon-8.svg'
+import Cycle from '../../../../../assets/icons-svgr/Icon5'
+import Shares from '../../../../../assets/icons-svgr/Icon6'
+import Power from '../../../../../assets/icons-svgr/Icon7'
+import Gear from '../../../../../assets/icons-svgr/Icon8'
 
 export interface IRecommendationProps {
 	recommendation: IRecommendation
@@ -20,7 +20,7 @@ const Recommendation: FC<IRecommendationProps> = ({
 			className={`recommendation ${bgColor} rounded-[14px] py-[15px] px-[27px] gap-2.5 flex flex-col items-stretch text-left text-gray300 w-fit m-auto`}
 		>
 			<header className='flex items-center text-left gap-2.5'>
-				<img src={cycle} alt='recommended' />
+				<Cycle className='grey' />
 				<p className=' text-base leading-[21px] text-primaryBlack font-bold'>
 					{recommendation.percentage}% Recommended
 				</p>
@@ -38,12 +38,12 @@ const Recommendation: FC<IRecommendationProps> = ({
 				</p>
 				<div className='info flex items-center gap-[105px]'>
 					<div className='left flex items-center gap-4'>
-						<img src={shares} alt='shares' />
+						<Shares />
 						{recommendation.shares > 1000
 							? `${recommendation.shares / 1000}K`
 							: recommendation.shares}
-						<img src={gear} alt='gear' />
-						<img src={power} alt='power' />
+						<Gear className='grey' />
+						<Power />
 					</div>
 					<p>{`$${recommendation.price}/h`}</p>
 				</div>

@@ -1,10 +1,11 @@
 import React from 'react'
-import search from '../../../../../assets/icons/Component 9.svg'
+import Search from '../../../../../assets/icons-svgr/Component9'
 const SearchBar = () => {
 	return (
 		<div className='search-bar flex items-center gap-2.5 bg-[#F5F4F6] rounded-lg py-3 px-[14px] w-[358px]'>
 			<div className='search-icon flex items-center justify-center'>
-				<img src={search} alt='search' />
+				{/* <img src={search} alt='search' /> */}
+				<Search />
 			</div>
 			<input
 				type='text'

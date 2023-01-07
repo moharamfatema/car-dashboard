@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import downward from '../../../../../assets/icons/icon/stroke/downward.svg'
+import Downward from '../../../../../assets/icons-svgr/icon/stroke/Downward'
 
 interface IFiltersLeftProps {
 	filters: string[]
@@ -14,7 +14,7 @@ const FiltersLeft: FC<IFiltersLeftProps> = ({ filters }) => {
 					key={filter}
 				>
 					<p className=' text-base '>{filter}</p>
-					<img src={downward} alt='dropdown' />
+					<Downward className='grey' />
 				</div>
 			))}
 		</div>

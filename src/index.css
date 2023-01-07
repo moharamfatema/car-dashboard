@@ -33,3 +33,15 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 		monospace;
 }
+
+.grey path {
+	@apply fill-gray300;
+}
+
+.purple path{
+	@apply fill-primaryPurple;
+}
+
+.white path{
+	@apply fill-white;
+}
