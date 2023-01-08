@@ -17,6 +17,7 @@ Creating a React Typescript web app from a Figma design as part of a job applica
 - Typescript :blue_book:
 - Tailwind CSS :art:
 - amCharts5 :bar_chart:
+- google-charts :bar_chart:
 
 ## Linting and Formatting :art:
 
