@@ -37,8 +37,7 @@ export interface IStatus {
 }
 
 export interface IChart {
-	name: string
-	type: string
-	dataX: number[]
-	dataY: number[]
+	chartType: any
+	options: any
+	data: Array<Array<any>>
 }
