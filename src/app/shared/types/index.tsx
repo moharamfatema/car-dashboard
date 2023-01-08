@@ -1,3 +1,5 @@
+import { FC } from 'react'
+
 export interface Itab {
 	name: string
 	link: string
@@ -21,4 +23,15 @@ export interface IRecommendation {
 	shares: number
 	id: number
 	image: string
+}
+
+export interface IStatus {
+	name: string
+	percentage: number
+	icon: FC<{ className: string }>
+	color: string
+	dataColor: string
+	textColor: string
+	iconColor: string
+	max?: number
 }

@@ -45,3 +45,19 @@ code {
 .white path {
 	@apply fill-white;
 }
+
+.primaryPurple path {
+	@apply fill-primaryPurple;
+}
+
+.primaryBlack path {
+	@apply fill-primaryBlack;
+}
+
+.secondaryYellow path {
+	@apply fill-secondaryYellow;
+}
+
+.secondaryRed path {
+	@apply fill-secondaryRed;
+}
