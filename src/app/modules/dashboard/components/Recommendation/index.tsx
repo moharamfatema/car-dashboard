@@ -17,7 +17,7 @@ const Recommendation: FC<IRecommendationProps> = ({
 }) => {
 	return (
 		<div
-			className={`recommendation ${bgColor} rounded-[14px] py-[15px] px-[27px] gap-2.5 flex flex-col items-stretch text-left text-gray300 w-fit m-auto`}
+			className={`recommendation ${bgColor} rounded-[14px] py-[15px] px-[27px] gap-2.5 flex flex-col items-stretch text-left text-gray300 w-full m-auto`}
 		>
 			<header className='flex items-center text-left gap-2.5'>
 				<Cycle className='grey' />

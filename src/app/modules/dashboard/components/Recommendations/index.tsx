@@ -5,7 +5,7 @@ import { recommendations } from './recommendationData'
 const Recommendations: FC = () => {
 	const bgColors = ['bg-[#E1DFA4]', 'bg-[#E3ECF1]', 'bg-[#F4E3E5]']
 	return (
-		<div className='recommendations grid grid-cols-1 lg:grid-cols-3 gap-6'>
+		<div className='recommendations grid grid-cols-1 lg:grid-cols-3 gap-6 w-full'>
 			{recommendations.map(recommendation => (
 				<Recommendation
 					recommendation={recommendation}

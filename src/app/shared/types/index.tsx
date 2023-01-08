@@ -35,3 +35,10 @@ export interface IStatus {
 	iconColor: string
 	max?: number
 }
+
+export interface IChart {
+	name: string
+	type: string
+	dataX: number[]
+	dataY: number[]
+}

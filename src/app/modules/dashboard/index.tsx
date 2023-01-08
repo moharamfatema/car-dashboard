@@ -1,4 +1,5 @@
 import React, { FC } from 'react'
+import Charts from './components/Charts'
 import Recommendations from './components/Recommendations'
 import Statuses from './components/Statuses'
 
@@ -9,7 +10,7 @@ const Dashboard: FC = () => {
 				<Statuses />
 			</div>
 			<div className='charts'>
-				<div>Charts</div>
+				<Charts />
 			</div>
 			<Recommendations />
 		</div>
